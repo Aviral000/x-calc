@@ -55,10 +55,10 @@ export default function App() {
           <button type='button' onClick={() => handleButtonClick('2')}>2</button>
           <button type='button' onClick={() => handleButtonClick('3')}>3</button>
           <button type='button' onClick={() => handleButtonClick('*')}>*</button>
-          <button type='button' onClick={() => handleButtonClick('/')}>/ </button>
-          <button type='button' onClick={() => handleButtonClick('=')}>=</button>
+          <button type='button' onClick={() => handleButtonClick('C')}>C </button>
           <button type='button' onClick={() => handleButtonClick('0')}>0</button>
-          <button type='button' onClick={() => handleButtonClick('C')}>C</button>
+          <button type='button' onClick={() => handleButtonClick('=')}>=</button>
+          <button type='button' onClick={() => handleButtonClick('/')}>/</button>
         </div>
       </div>
     </div>
